@@ -12,7 +12,7 @@ public class ArraysClass {
             System.out.println("Current Array and sorting: "+i);
         }
         System.out.println("using fill method will add all elements with same element: 9");
-        Arrays.fill(arrays, 9);
+        Arrays.fill(arrays, 9);  //Fill used to unject the same value in all the elements
         for (int i : arrays) {
             System.out.println("Current Array and sorting: "+i);
         }
